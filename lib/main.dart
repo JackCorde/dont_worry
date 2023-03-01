@@ -189,6 +189,13 @@ class Recuperar extends StatelessWidget {
                   textAlign: TextAlign.center,
                 ),
               )),
+          Container(
+            padding: EdgeInsets.fromLTRB(50, 10, 50, 20),
+            child: ElevatedButton(
+              onPressed: () {},
+              child: const Text("Recuperar"),
+            ),
+          ),
           Image(
               image: NetworkImage(
                   'https://pantheon.nexthink.com/wp-content/uploads/2020/10/What-is-EUEM-Illustration.png'))
